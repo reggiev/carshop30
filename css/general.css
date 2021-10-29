@@ -1,0 +1,164 @@
+/* h1 {
+    background-color: #bdd7ff;
+    color: rgb(3, 15, 128);
+}
+
+h2 {
+    color: salmon;
+}
+
+#newdiv{
+    background-color: rebeccapurple !important;
+}
+
+div{
+    background-color: springgreen !important;
+} */
+
+.main_link {
+    background-color: seashell;
+    text-decoration: none;
+}
+
+#current_page {
+    background-color: rgb(188, 225, 255);
+}
+
+.main_link:hover {
+    background-color: rgb(190, 244, 103);
+}
+
+#firstname:active {
+    background-color: yellow;
+}
+
+/* div span{
+    background-color: turquoise;
+} */
+
+/* div, span {
+    color: blue;
+} */
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bold;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 3px 2px 0px yellow;
+    /* letter-spacing: -25px; */
+    text-decoration: overline;
+    /* border: 15px solid red; */
+}
+
+/* h2 {
+    text-indent: -50px;
+} */
+
+li {
+    list-style: initial;
+}
+
+ol > li {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul > li {
+    list-style: url("../images/blue_dot.png") circle inside;
+}
+
+ul {
+    list-style-type: square;
+}
+
+.about_us_photo {
+    height: 350px;
+    width: 350px;
+    background-color: lightcoral;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    /* background-position: -400px -200px; */
+    background-attachment: scroll;
+    background-size: contain;
+    border: 15px solid lavender;
+    /* border-radius: 350px; */
+    box-shadow: 5px 5px 5px honeydew;
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px;
+
+}
+
+#photo1 {
+    /* background-image: url("../images/csr.jpeg"); */
+    background: thistle url("../images/csr.jpeg") repeat-y center;
+    /* margin: 10px 20px 30px 40px; */
+    /* position: absolute; */
+    /* left: 60px; */
+    /* top:  100px; */
+    /* z-index: 1; */
+}
+
+#photo2 {
+    background-image: url("../images/shinjuku.jpeg");
+    /* padding: 75px; */
+    /* overflow: scroll; */
+    box-sizing: content-box;
+    /* position: relative; */
+    /* z-index: -1000; */
+}
+
+#photo3 {
+    background-image: url("../images/samsung-firstshop.jpeg");
+}
+
+#photo4 {
+    background-image: url("../images/mercedes_benz.jpg");
+}
+
+#photo5 {
+    background-image: url("../images/nissan.jpg");
+}
+
+#photo6 {
+    background-image: url("../images/mitsubishi.jpeg");
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+    background-color: aquamarine;
+}
+
+#main_banner {
+    width: 100%;
+}
+
+table {
+    empty-cells: show;
+    /* border-spacing: 10px; */
+    border-collapse: collapse;
+}
+
+#blue_dot {
+    float: right;
+}
+
+#test_paragraph {
+    clear: left;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    background-color: maroon;
+}

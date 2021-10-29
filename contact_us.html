@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="css/general.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Carshop Company</h1>
+            <h2>Contact Us</h2>
+            <br>
+            <nav>
+                <a class="main_link" href="index.html">Home</a>
+                <a class="main_link" href="products.html">Products</a>
+                <a class="main_link" href="about_us.html">About Us</a>
+                <a class="main_link" id="current_page" href="contact_us.html">Contact Us</a>
+            </nav>
+            <hr>
+        </header>
+        <form>
+            <label for="firstname">Firstname: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname" minlength="2">
+            <br>
+            <label for="lastname">Lastname: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Lastname" required>
+            <br>
+            <label for="email-add">Email Address:</label>
+            <input type="email" id="email-add" name="email-address" placeholder="user@example.com">
+            <br>
+            <label for="birthdate">Birth date:</label>
+            <input type="date" name="birthdate" id="birthdate">
+            <br>
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" min="0.1" max="140">
+            <br>
+            <label for="message">Message: </label>
+            <textarea id="message" name="message">Sample text.</textarea>
+            <br>
+            <label for="favorite_cuisine">Favorite Cuisine: </label>
+            <br>
+            <input type="radio" name="fave_cuisine" value="french" id="french">
+            <label for="french">French</label>
+            <br>
+            <input type="radio" name="fave_cuisine" value="mexican" id="mexican">
+            <label for="mexican">Mexican</label>
+            <br>
+            <input type="radio" name="fave_cuisine" value="japanese" id="japanese">
+            <label for="japanese">Japanese</label>
+            <br>
+            <input type="radio" name="fave_cuisine" value="italian" id="italian">
+            <label for="italian">Italian</label>
+            <br>
+            <input type="radio" name="fave_cuisine" value="spanish" id="spanish">
+            <label for="spanish">Spanish</label>
+            <br>
+            <label for="country_of_origin">Country of origin:</label>
+            <select id="country_of_origin" name="country_of_origin">
+                <option value="aruba">Aruba</option>
+                <option value="belize">Belize</option>     
+                <option value="cyprus">Cyprus</option>       
+                <option value="djibouti">Djibouti</option>
+                <option value="eritrea">Eritrea</option>
+                <option value="finland">Finland</option>
+                <option value="germany">Germany</option>
+            </select>
+            <br>
+            <label for="mode_of_transportation">Mode of transportation:</label>
+            <br>
+            <input type="checkbox" name="automobile" id="automobile" value="automobile">
+            <label for="automobile">Automobile</label>
+            <br>
+            <input type="checkbox" name="motorcycle" id="motorcycle" value="motorcycle">
+            <label for="motorcycle">Motorcycle</label>
+            <br>
+            <input type="checkbox" name="aircraft" id="aircraft" value="aircraft">
+            <label for="aircraft">Aircraft</label>
+            <br>
+            <input type="checkbox" name="ferry" id="ferry" value="ferry">
+            <label for="ferry">Ferry</label>
+            <br>
+            <input type="checkbox" name="bus" id="bus" value="bus">
+            <label for="bus">Bus</label>
+            <br>
+            <input type="checkbox" name="train" id="train" value="train">
+            <label for="train">Train</label>
+            <br>
+            <label for="countries_visited">Countries Visited:</label>
+            <select id="countries_visited" name="countries_visited" multiple>
+                <option value="armenia">Armenia</option>
+                <option value="belguim">Belguim</option>     
+                <option value="canada">Canada</option>       
+                <option value="dermark">Dermark</option>
+                <option value="egypt">Egypt</option>
+                <option value="france">France</option>
+                <option value="ghana">Ghana</option>
+            </select>
+            <br>
+            <label for="file_input">File:</label>
+            <input type="file" id="file_input" name="file">
+            <br>
+            <button type="submit" value="Submit">Submit</button>
+            <br>
+            <input type="button" value="Click Me">
+            <br>
+            <input type="image" src="images/blue_dot.png">
+            <br>
+        </form>
+        <footer>
+            Copyright Carshop Company 2021
+        </footer>
+    </div>
+</body>
+</html>
